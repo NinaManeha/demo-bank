@@ -4,7 +4,7 @@ import static java.lang.System.out;
 
 public class UseAccount {
     public static void main(String[] args) {
-        Account myAccount = new Account();
+        Account myAccount = new Account(); //refactor useaccount class
         Account yourAccount = new Account();
         myAccount.name = "Nina";
         myAccount.address = "222 Inner Lane";
