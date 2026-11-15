@@ -15,7 +15,7 @@ public class Account {
         out.print(balance);
     }
 
-    public double getInterest(double percentageRate){
+    public double getInterest(double percentageRate){ //refactor account class
         return balance * percentageRate / 100.0;
     }
 }
